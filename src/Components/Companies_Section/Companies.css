@@ -1,0 +1,13 @@
+.c-container{
+    justify-content: space-around;
+}
+
+.c-container>img{
+    width:9rem;
+}
+
+.c-title{
+    font-size:3rem;
+    font-weight:600;
+    color:#ff2f2f;
+}
