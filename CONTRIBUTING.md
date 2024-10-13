@@ -16,11 +16,11 @@ Start by forking the repository to your GitHub account.
 Once you've forked the repository, clone it to your local machine.
 
 ```bash
-git clone https://github.com/your-username/weather-app.git
+git clone https://github.com/your-username/A-Demo-Portfolio-Website-React.git
 ```
 ### 3. Navigate to the Project Directory
 ```bash
-cd weather-app
+cd A-Demo-Portfolio-Website-React
 ```
 ### 4.Create a Branch
 
