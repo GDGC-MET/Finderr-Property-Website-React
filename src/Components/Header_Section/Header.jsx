@@ -17,10 +17,11 @@ const Header = () => {
                 <img alt="an image appears here" src="./Finderr Logo Black.png" width={100}></img>
                 <OutsideClickHandler onOutsideClick={()=> setMenuOpened(false)}>
                 <div className="flexCenter h-menu" style={getMenuStyles(menuOpened)}>
-                    <a href="">Residencies</a>
-                    <a href="">Contact Us</a>
-                    <a href="">Get Started</a>
-                    <button className="button">Pricing</button>
+                    <a href="#Residencies">Residencies</a>
+                    <a href="#Contact">Contact Us</a>
+                    <a href="#getstarted">Get Started</a>
+                    {/* <button className="button" onclick={"/pricing"}>Pricing</button> */}
+                    <a href="#pricing">Pricing</a>
                 </div>
                 </OutsideClickHandler>  
                 <div className="menu-icon" 

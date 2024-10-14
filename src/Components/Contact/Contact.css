@@ -1,13 +1,13 @@
 .c-container{
-    justify-content: space-between;
+    justify-content: space-between ;
 }
 
 .c-container>div{
-    flex:1;
+    flex:1 ;
 }
 
 .c-right{
-    width:100%;
+    width:100% ;
 }
 
 .c-left{
@@ -23,37 +23,37 @@
     gap:1.5rem;
 }
 
-.mode{
-    width:16rem;
-    padding:1rem;
-    border: 3px solid rgba(128,128,128,0.143);
-    border-radius:5px;
-    gap:1rem;
-    transition:all 300ms ease-in;
+.mode {
+    width:16rem !important;
+    padding:1rem !important;
+    border: 3px solid rgba(128,128,128,0.143) !important;
+    border-radius:5px !important;
+    gap:1rem !important;
+    transition:all 300ms ease-in !important;
 }
 
 .mode .button{
-    width:100%;
-    background: var(--lightBlue);
-    color: var(--blue);
-    font-size:0.9rem;
-    align-items:center; 
+    width:100% !important;
+    background: var(--lightBlue) !important;
+    color: var(--blue) !important;
+    font-size:0.9rem !important;
+    align-items:center !important; 
 }
 
 .mode>:nth-child(1){
-    width:100%;
-    gap:1.6rem;
+    width:100% !important;
+    gap:1.6rem !important;
 }
 
 .mode:hover{
-    scale:1.1;
-    box-shadow:var(--shadow);
+    scale:1.1 !important;
+    box-shadow:var(--shadow) !important;
 }
 
 .mode .button:hover{
-    background: var(--blue-gradient);
-    color:white;
-    scale:0.8;
+    background: var(--blue-gradient) !important;
+    color:white !important;
+    scale:0.8 !important;
 }
 
 @media(max-width:768px){
