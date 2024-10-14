@@ -2,7 +2,7 @@ import React from 'react'
 import './Get_Started.css'
 const Get_Started = ()=>{
     return(
-        <section className="g-wrapper">
+        <section id='getstarted' className="g-wrapper">
             <div className="paddings innerWidth g-container">
                 <div className="flexColCenter inner-container">
                     <span className='primaryText'>Get Started With Finderr</span>
